@@ -1218,8 +1218,8 @@ dependencies = [
 ]
 
 [[package]]
-name = "kaspa_script_address_py"
-version = "0.0.0"
+name = "kaspa_script_address"
+version = "0.0.1"
 dependencies = [
  "hex",
  "kaspa-addresses",

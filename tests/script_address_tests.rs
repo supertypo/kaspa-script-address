@@ -1,4 +1,4 @@
-use kaspa_script_address_py::script_address::{to_address, to_script};
+use kaspa_script_address::script_address::{to_address, to_script};
 
 const SCRIPT_PAY_TO_PUBKEY: &str = "20e3a134d07b6719befe296576fdea05a14f555f3491b4c13229b7fc77d3aff5b7ac";
 const SCRIPT_PAY_TO_PUBKEY_ECDSA: &str = "2103e3100d85efae93e0c2fc654b2f0c33584f213a3fdffd023c821277b21789e064ab";

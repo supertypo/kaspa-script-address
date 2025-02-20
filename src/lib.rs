@@ -4,7 +4,7 @@ use script_address::to_address;
 use script_address::to_script;
 
 #[pymodule]
-fn kaspa_script_address_py(module: &Bound<'_, PyModule>) -> PyResult<()> {
+fn kaspa_script_address(module: &Bound<'_, PyModule>) -> PyResult<()> {
     module.add_function(wrap_pyfunction!(to_address, module)?)?;
     module.add_function(wrap_pyfunction!(to_script, module)?)?;
     Ok(())
